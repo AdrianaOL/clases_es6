@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "babel src/ -d dist/ --config-file ./babel.config.json"
+    "start": "node dist/main.js",
+    "transpile": "babel src/ -d dist/ --config-file ./babel.config.json"
   },
   "keywords": [],
   "author": "",
